@@ -52,5 +52,5 @@ export function logPerson(user: Person) {
   console.log(` - ${user.name}, ${user.age}, ${additionalInformation}`);
 }
 
-console.log("teste");
+console.log("Users: ");
 persons.forEach(logPerson);
