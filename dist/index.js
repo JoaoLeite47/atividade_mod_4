@@ -39,5 +39,5 @@ function logPerson(user) {
     console.log(` - ${user.name}, ${user.age}, ${additionalInformation}`);
 }
 exports.logPerson = logPerson;
-console.log("teste");
+console.log("Users: ");
 exports.persons.forEach(logPerson);
